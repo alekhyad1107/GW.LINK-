@@ -1,0 +1,36 @@
+.ant-layout-header, .ant-menu.ant-menu-dark {
+  background-color: #B29E69;
+}
+.ant-layout {
+  background-color: #033c5a;
+}
+.site-layout-content {
+  min-height: 90vh;
+  padding: 24px;
+  background: #fff;
+}
+.login-page {
+  max-width: 700px;
+  margin: auto;
+  margin-top: 3rem;
+}
+.logo {
+  float: left;
+  width: 120px;
+  height: 40px;
+  margin: 16px 24px 16px 0;
+  background-image: url(./assets/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+[data-theme="dark"] .site-layout-content {
+  background: #141414;
+}
